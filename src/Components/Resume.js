@@ -5,7 +5,6 @@ function Resume() {
         <div>
             <h1>Resume Page</h1>
             <h2>Download my resume here!</h2>
-            <h3 ahref
         </div>
     )
 }

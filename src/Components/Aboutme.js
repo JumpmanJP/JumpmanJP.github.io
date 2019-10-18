@@ -1,11 +1,18 @@
 import React, { Component } from 'react';
+import { Grid, Cell } from 'react-mdl';
 
-function About() {
-    return(
-        <div>
-            <h1>About Me Page</h1>
-        </div>
-    )
+
+class About extends Component {
+    render () {
+        return (
+            <div className="aboutme">
+                <Grid className="aboutme-grid">
+                    <Cell col={6}>half page</Cell>
+                    <Cell col={6}>half page</Cell>
+                </Grid>
+            </div>
+        )
+    }
 }
 
 export default About;

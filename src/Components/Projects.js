@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, Button, CardMenu, IconButton, CardText } from 'react-mdl';
 
-// function Projects (props) {
-//     [activeTab, setActiveTab] = useState('');
-// }
 
 
 
@@ -12,11 +9,7 @@ class Projects extends Component {
         super(props);
         this.state = { activeTab: 0};
     }
-// Make the class component a functional componnent. Also look up super(props)
 
-function Projects() {
-    this.state = { activeTab: 0 };
-}
 
 
 
@@ -25,10 +18,23 @@ toggleCatagories() {
 
 if(this.state.activeTab === 0) {
     return(
+        <div className="projects-grid">
+        {/* Project 1  */}
         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url('}}
+            <CardTitle style={{color: '#fff', height: '176px' }} >React Project #1</CardTitle>
+            <CardText>
+                Card text here.
+            </CardText>
+            <CardActions border>
+                <Button colored>GitHub</Button>
+                <Button colored>CodePen</Button>
+                <Button colored>LinkedIn</Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+                <IconButton name="share"/>
+            </CardMenu>
         </Card>
-        <div><h1>This is React</h1></div>
+        </div>
     ) 
 } else if (this.state.activeTab === 1) {
     return(
@@ -40,29 +46,26 @@ if(this.state.activeTab === 0) {
     )
 }
 }
-}
 
+render() {
 return (
-    <div>
-        </div>
         <div className="catagory-tabs">
-            <Tabs activeTab={this.state.activeTab} onChange={(tabID) => this.setState({ activeTab: tabID })} ripple>
+        <Tabs activeTab={this.state.activeTab} onChange={(tabID) => this.setState({ activeTab: tabID })} ripple>
          <Tab>React</Tab>
          <Tab>Angular</Tab>
         <Tab>API's</Tab>
         </Tabs>
         
-        <section className="projects-grid">
-        <Grid className="projects-grid">
+        <Grid >
             <Cell col={12}>
                 <div className="content">{this.toggleCatagories()}</div>
             </Cell>
         </Grid>
 
-    </section>
-</div>
+        </div>
 )   
-
+}
+}
 
 
 

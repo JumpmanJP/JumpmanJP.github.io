@@ -4,7 +4,8 @@ import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import { Link } from 'react-router-dom';
 import Main from './Components/Main';
 
-function App() {
+class App extends Component {  
+  render() {
   return (
     <div className="App">
       <Layout>
@@ -13,7 +14,7 @@ function App() {
             <Link to="/projects">Projects</Link>
             <Link to="/resume">Resume</Link>
             <Link to="/aboutme">About Me</Link>
-            <Link to="/content">Contact Me</Link>
+            <Link to="/contactme">Contact Me</Link>
           </Navigation>
         </Header>
         <Drawer title="JP O'Grady">
@@ -21,12 +22,17 @@ function App() {
             <Link to="/projects">Projects</Link>
             <Link to="/resume">Resume</Link>
             <Link to="/aboutme">About Me</Link>
-            <Link to="/content">Contact Me</Link>
+            <Link to="/contactme">Contact Me</Link>
           </Navigation>
         </Drawer>
+        <Content>
+          <div className="page-content" />
+          <Main />
+        </Content>
       </Layout>
     </div>
   );
+}
 }
 
 export default App;
