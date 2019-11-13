@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/jp_portfolio/static/css/main.dc17c8cc.chunk.css",
-    "main.js": "/jp_portfolio/static/js/main.83dd6991.chunk.js",
-    "main.js.map": "/jp_portfolio/static/js/main.83dd6991.chunk.js.map",
+    "main.css": "/jp_portfolio/static/css/main.6ce44dd3.chunk.css",
+    "main.js": "/jp_portfolio/static/js/main.4fec2fdc.chunk.js",
+    "main.js.map": "/jp_portfolio/static/js/main.4fec2fdc.chunk.js.map",
     "runtime-main.js": "/jp_portfolio/static/js/runtime-main.d9dece1e.js",
     "runtime-main.js.map": "/jp_portfolio/static/js/runtime-main.d9dece1e.js.map",
-    "static/css/2.04aae6c4.chunk.css": "/jp_portfolio/static/css/2.04aae6c4.chunk.css",
-    "static/js/2.e95ce8f8.chunk.js": "/jp_portfolio/static/js/2.e95ce8f8.chunk.js",
-    "static/js/2.e95ce8f8.chunk.js.map": "/jp_portfolio/static/js/2.e95ce8f8.chunk.js.map",
+    "static/css/2.f5b57a2b.chunk.css": "/jp_portfolio/static/css/2.f5b57a2b.chunk.css",
+    "static/js/2.cd2811e3.chunk.js": "/jp_portfolio/static/js/2.cd2811e3.chunk.js",
+    "static/js/2.cd2811e3.chunk.js.map": "/jp_portfolio/static/js/2.cd2811e3.chunk.js.map",
     "index.html": "/jp_portfolio/index.html",
-    "precache-manifest.489ca2decb174a0dd6389ea3ff0c5e21.js": "/jp_portfolio/precache-manifest.489ca2decb174a0dd6389ea3ff0c5e21.js",
+    "precache-manifest.a4f3e6d237e5792fb1adc1b97f98f9bc.js": "/jp_portfolio/precache-manifest.a4f3e6d237e5792fb1adc1b97f98f9bc.js",
     "service-worker.js": "/jp_portfolio/service-worker.js",
-    "static/css/2.04aae6c4.chunk.css.map": "/jp_portfolio/static/css/2.04aae6c4.chunk.css.map",
-    "static/css/main.dc17c8cc.chunk.css.map": "/jp_portfolio/static/css/main.dc17c8cc.chunk.css.map"
+    "static/css/2.f5b57a2b.chunk.css.map": "/jp_portfolio/static/css/2.f5b57a2b.chunk.css.map",
+    "static/css/main.6ce44dd3.chunk.css.map": "/jp_portfolio/static/css/main.6ce44dd3.chunk.css.map",
+    "static/media/dirtbikeutah.png": "/jp_portfolio/static/media/dirtbikeutah.071fd7a3.png",
+    "static/media/profile_pic.png": "/jp_portfolio/static/media/profile_pic.88d311af.png"
   }
 }
