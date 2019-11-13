@@ -1,15 +1,14 @@
 .header-color {
-  background: #134E5E;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #0099F7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F11712, #0099F7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F11712, #0099F7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
-
 }
 
 .landing-grid {
-  background: #134E5E;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #0099F7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F11712, #0099F7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F11712, #0099F7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
 position: fixed;
 top: 0;
@@ -17,12 +16,14 @@ left: 0;
 width: 100%;
 height: 100%;
 text-align: center;
-
 }
 
+
+
 .profile_pic {
-  height: 250px;
+  height: 300px;
   padding-top: 5em;
+  background-image: url('./Assets/profile_pic.jpg');
 }
 
 .banner-text {
@@ -47,7 +48,7 @@ text-align: center;
 
 .banner-text p {
   color: white;
-  font-size: 20px;
+  font-size: 25px;
   padding: 1em;
 }
 
@@ -60,7 +61,7 @@ margin: auto;
 
 .social-links i {
   color: white;
-  font-size: 5em;
+  font-size: 8em;
   padding: 8px;
 }
 
@@ -68,10 +69,15 @@ margin: auto;
   display: flex;
 }
 
+/* ****** */
 /* contact page css */
+/* ******** */
+
 .contact-body {
   margin: auto;
-  background: grey;
+  background: #0099F7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F11712, #0099F7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F11712, #0099F7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   position: fixed;
   width: 100%;
   height: 100%;
@@ -84,9 +90,67 @@ margin: auto;
   justify-content: center;
   width: 80%;
   height: 550px;
-  background: white;
+  background: grey;
   color: black;
-  border: 2px solid red;
+  border: 2px solid black;
   margin-bottom: 20px;
 }
-/* contact page CSS */
+
+.contact-grid h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contact-grid p {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px;
+  width: 50%;
+  margin: auto;
+}
+ 
+.contact-list i {
+  font-size: 66px;
+  padding-right: 5rem;
+}
+
+/* *** */
+/* RESUME PAGE CSS */
+/* *** */
+
+.resume-right-col {
+  background: #27221F;
+  color: white;
+  padding: 2em;
+}
+
+.resume-background {
+  background: #0099F7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F11712, #0099F7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F11712, #0099F7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.resume-button {
+  color: black;
+  background-color: black;
+}
+
+
+
+/* *** */
+/* PROJECTS */
+/* *** */
+
+.content {
+  background: #0099F7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F11712, #0099F7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F11712, #0099F7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.catagory-tabs {
+  background: #0099F7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F11712, #0099F7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F11712, #0099F7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

@@ -11,18 +11,20 @@ class App extends Component {
       <Layout>
         <Header className="header-color" title="JP O'Grady" scroll>
           <Navigation>
+            <Link to="/LandingPage">Landing Page</Link>
             <Link to="/projects">Projects</Link>
             <Link to="/resume">Resume</Link>
             <Link to="/aboutme">About Me</Link>
-            <Link to="/contactme">Contact Me</Link>
+            <Link to="/contact">Contact Me</Link>
           </Navigation>
         </Header>
         <Drawer title="JP O'Grady">
           <Navigation>
+            <Link to="/LandingPage">Landing Page</Link>
             <Link to="/projects">Projects</Link>
             <Link to="/resume">Resume</Link>
             <Link to="/aboutme">About Me</Link>
-            <Link to="/contactme">Contact Me</Link>
+            <Link to="/contact">Contact Me</Link>
           </Navigation>
         </Drawer>
         <Content>
