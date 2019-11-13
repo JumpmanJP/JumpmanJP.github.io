@@ -23,7 +23,7 @@ text-align: center;
 .profile_pic {
   height: 300px;
   padding-top: 5em;
-  background-image: url('./Assets/profile_pic.jpg');
+  /* background-image: url('./Assets/profile_pic.jpg'); */
 }
 
 .banner-text {

@@ -13,7 +13,7 @@ class Contact extends Component {
                         alt="avatar"
                         style={{height: '250px'}}
                     />
-                        <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>I am excited and motivated to work for an organization that enables me to contribute value while continuing to grow as a professional and take on opportunities that empower me to continue learning in a field that is hands-on and fast-paced.</p>
+                        <h6 style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>I am excited and motivated to work for an organization that enables me to contribute value while continuing to grow as a professional and take on opportunities that empower me to continue learning in a field that is hands-on and fast-paced.</h6>
                     </Cell>
                     <Cell col={6}>
                         <h2>Contact Me</h2>
@@ -34,13 +34,6 @@ class Contact extends Component {
                                 jp.ogrady06@gmail.com
                             </ListItemContent>
                         </ListItem>
-
-                        {/* <ListItem>
-                            <ListItemContent style={{fontSize: '30px'}}>
-                                <i className="fa fa-skype" aria-hidden="true"/>
-                                My skype number
-                            </ListItemContent>
-                        </ListItem> */}
 
                     </List>
                     </div>

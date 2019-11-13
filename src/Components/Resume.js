@@ -27,11 +27,9 @@ class Resume extends Component {
                     <hr style={{borderTop: '3px solid white', width: '50%'}}></hr>
 
                     {/* // Attempting to connect my resume pdf format to the download button and get it to open in another page using target set to _blank */}
-                    
                     <div className="resume">
                     <Button varient="black" className="resume-button" raised accent ripple>Download Resume Here
-
-
+                    
                         <a href="https://docs.google.com/document/d/1C5ONsAZ6fHR7UJE0lxYn4euDFoQXFglblq7u83jzvMQ/edit" target="_blank">
                         </a>
 
