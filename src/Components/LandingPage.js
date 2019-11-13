@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 
-// import {profile_pic} from '../Assets/profile_pic';
+import profile_pic from '../Assets/profile_pic.png';
 
 
 
@@ -13,14 +13,10 @@ class Landing extends Component {
             <Grid className="landing-grid">
                 <Cell col={12}>
                 <img 
-                    src="profile_pic"
+                    src={profile_pic}
                     alt="profile_pic"
                     className="profile_pic"
-                // ***
-                // Attempted to import personal profile picture from Assets folder.
-                    // src = {require('./profile_pic.jpg')}
-                    // alt = {profile_pic}
-                    // className = "profile_pic"
+                    // style={{border: '5px solid black'}}
                 />
                 </Cell>
                 <div className="banner-text" >
@@ -40,6 +36,7 @@ class Landing extends Component {
                  <a href="https://github.com/JumpmanJP" rel="nooperner noreferrer" target="_blank">
                     <i className="fa fa-github-square"  aria-hidden="true" />
                 </a>
+
 
 
             </div>

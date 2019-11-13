@@ -80,9 +80,11 @@ return (
         <Tab>API</Tab>
         </Tabs>
         
+{/* In the styling for height, just below, I need to find a way to have the background colors fill the entire height of any screen. There should be a 'full' or '100%' setting somehow. */}
+
         <Grid >
             <Cell col={12}>
-                <div className="content" style={{ height: '720px' }}>{this.toggleCatagories()}</div>
+                <div className="content" style={{ height: '950px' }}>{this.toggleCatagories()}</div>
             </Cell>
         </Grid>
 

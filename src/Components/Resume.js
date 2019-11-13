@@ -1,9 +1,21 @@
 import React, { Component } from 'react';
-import { Grid, Cell, Button } from 'react-mdl';
+import { Grid, Cell, } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
+import Button from 'react-bootstrap/Button';
+
+import profile_pic from '../Assets/profile_pic.png';
 
 class Resume extends Component {
+    constructor() {
+        super();
+        this.state= {
+
+        }
+    }
+
+
+
     render() {
         return(
             <div>
@@ -11,35 +23,35 @@ class Resume extends Component {
                     <Cell col={4}>
                         <div style={{textAlign: 'center'}}>
                             <img
-                                src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+                                src={profile_pic}
                                 alt="avatar"
-                                style={{height: '200px'}}
+                                style={{height: '366px', border: '3px solid black'}}
                                 />
                         </div>
 
-                    <h2 style={{paddingTop: '2em'}}> JP O'Grady </h2>
+                    <h2 style={{paddingTop: '1em', textAlign: "center"}}> JP O'Grady </h2>
                     {/* <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}></hr> */}
-                    <h4 style={{color: 'black'}}> Programmer </h4>
-                    <hr style={{borderTop: '3px solid white', width: '50%'}}></hr>
-                    <h5> jp.ogrady06@gmail.com </h5>
+                    <h4 style={{color: 'black', textAlign: 'center'}}> Programmer </h4>
+                    <hr style={{borderTop: '3px solid black', width: '100%', textAlign: "center",}}></hr>
+                    <h5 style={{textAlign: "center"}} > jp.ogrady06@gmail.com </h5>
                     {/* <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}></hr> */}
-                    <h5> +1(765)701.0241 </h5>
-                    <hr style={{borderTop: '3px solid white', width: '50%'}}></hr>
+                    <h5 style={{textAlign: "center"}}>  +1(765)701.0241 </h5>
+                    <hr style={{borderTop: '3px solid black', width: '100%', }}></hr>
+
+
+
 
                     {/* // Attempting to connect my resume pdf format to the download button and get it to open in another page using target set to _blank */}
                     <div className="resume">
-                    <Button varient="black" className="resume-button" raised accent ripple>Download Resume Here
-                    
-                        <a href="https://docs.google.com/document/d/1C5ONsAZ6fHR7UJE0lxYn4euDFoQXFglblq7u83jzvMQ/edit" target="_blank">
-                        </a>
-
-                    </Button>
-
-
+                    <Button onClick={this.download} variant="dark">Download Resume Here</Button>
                     </div>
 
-
                     </Cell>
+
+
+
+
+
 
                     <Cell className="resume-right-col" col={8}>
                         <h2>Education</h2>

@@ -4,9 +4,11 @@ import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import { Link } from 'react-router-dom';
 import Main from './Components/Main';
 
+
 class App extends Component {  
   render() {
   return (
+
     <div className="App">
       <Layout>
         <Header className="header-color" title="JP O'Grady" scroll>

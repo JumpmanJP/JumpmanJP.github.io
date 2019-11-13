@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
 
+import dirtbikeutah from '../Assets/dirtbikeutah.png';
+
 class About extends Component {
     render () {
         return (
@@ -9,9 +11,9 @@ class About extends Component {
                     <Cell col={6}>
                     <h2>JP O'Grady</h2>
                     <img 
-                        src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+                        src={dirtbikeutah}
                         alt="avatar"
-                        style={{height: '250px'}}
+                        style={{height: '350px'}}
                     />
                         <h6 style={{ width: '85%', margin: 'auto', paddingTop: '1em'}}>My hobbies include riding my dirt bike, running, swimming, climbing, golf, reading books and drinking coffee, traveling and connecting with friends and family.</h6>
                     </Cell>

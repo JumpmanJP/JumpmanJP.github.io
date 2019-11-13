@@ -21,9 +21,9 @@ text-align: center;
 
 
 .profile_pic {
-  height: 300px;
+  height: 366px;
   padding-top: 5em;
-  /* background-image: url('./Assets/profile_pic.jpg'); */
+  border: 3px solid black;
 }
 
 .banner-text {
@@ -89,10 +89,10 @@ margin: auto;
   text-align: center;
   justify-content: center;
   width: 80%;
-  height: 550px;
+  height: 650px;
   background: grey;
   color: black;
-  border: 2px solid black;
+  border: 3px solid black;
   margin-bottom: 20px;
 }
 
@@ -132,9 +132,8 @@ margin: auto;
   background: linear-gradient(to right, #F11712, #0099F7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.resume-button {
-  color: black;
-  background-color: black;
+.resume {
+  text-align: center;
 }
 
 

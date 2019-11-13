@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
 
+import profile_pic from '../Assets/profile_pic.png';
+
 class Contact extends Component {
     render () {
         return (
@@ -9,9 +11,9 @@ class Contact extends Component {
                     <Cell col={6}>
                     <h2>JP O'Grady</h2>
                     <img 
-                        src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+                        src={profile_pic}
                         alt="avatar"
-                        style={{height: '250px'}}
+                        style={{height: '300px', border: '3px solid black'}}
                     />
                         <h6 style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>I am excited and motivated to work for an organization that enables me to contribute value while continuing to grow as a professional and take on opportunities that empower me to continue learning in a field that is hands-on and fast-paced.</h6>
                     </Cell>
