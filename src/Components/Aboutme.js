@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
 
 import dirtbikeutah from '../Assets/dirtbikeutah.png';
+import dirtbike from '../Assets/dirtbike.png';
+import hiking from '../Assets/hiking.png';
+import johnlennonwall from '../Assets/johnlennonwall.png';
+import OGsibilings from '../Assets/OGsibilings.png';
+import mountains from '../Assets/mountains.png';
 
 class About extends Component {
     render () {
@@ -24,7 +29,7 @@ class About extends Component {
                         alt="avatar"
                         style={{height: '350px', border: '3px solid black'}}
                         />
-                        <h6 style={{ width: '85%', margin: 'auto', paddingTop: '1em'}}>Volunteering in India was a very intresting experience. I volunteered as a medical nurse, english teacher, and spent time with the children at the orphanage. I was lucky enough to visit the cities of Agra, Jaipur and Richekesh during my spare time.</h6>
+                        <h6 style={{ width: '85%', margin: 'auto', paddingTop: '1em'}}>Volunteering in India was a very intresting experience. I volunteered as a medical nurse, english teacher, and spent time with the children at the orphanage. I was lucky enough to visit the cities of Agra, Jaipur and Rishikesh during my spare time.</h6>
 
                         <hr></hr>
 
@@ -35,8 +40,66 @@ class About extends Component {
                         />
                         <h6 style={{ width: '85%', margin: 'auto', paddingTop: '1em'}}>Here I am standing on the left beside my brother, Stephen and grandfather, Jack. Both my brother and I are Eagle Scouts.</h6>
 
-  
+                        <hr></hr>
 
+                    <img
+                        src={dirtbike}
+                        alt="avatar"
+                        style={{height: '350px', border: '3px solid black'}}
+                        />
+                        <h6 style={{ width: '85%', margin: 'auto', paddingTop: '1em'}}>Cainville, Utah</h6>
+
+                        <hr></hr>
+
+                    <img
+                        src={OGsibilings}
+                        alt="avatar"
+                        style={{height: '350px', border: '3px solid black'}}
+                        />
+                        <h6 style={{ width: '85%', margin: 'auto', paddingTop: '1em'}}>A photo of my brother(left), sister(middle) and myself at the Indianapolis 500 in the summer of 2016.</h6>
+
+                        <hr></hr>
+
+                    <img
+                        src={hiking}
+                        alt="avatar"
+                        style={{height: '350px', border: '3px solid black'}}
+                        />
+                        <h6 style={{ width: '85%', margin: 'auto', paddingTop: '1em'}}>While I was teaching ESL in Europe, my sister came to visit and we traveled to Charmonix, France and hiked around Mt. Blonc.</h6>
+
+
+                        <hr></hr>
+
+                    <img
+                        src={mountains}
+                        alt="avatar"
+                        style={{height: '350px', border: '3px solid black'}}
+                        />
+                        <h6 style={{ width: '85%', margin: 'auto', paddingTop: '1em'}}>The mountains surrounding Mt. Bloc inspire me.</h6>
+
+
+
+
+                        <hr></hr>
+
+                    <img
+                        src={johnlennonwall}
+                         alt="avatar"
+                        style={{height: '350px', border: '3px solid black'}}
+                        />
+                        <h6 style={{ width: '85%', margin: 'auto', paddingTop: '1em'}}>Teaching in Europe afforded my the opportunity to visit popular touist destinations, such as the John Lennon Wall in Prague, Czech Republic.</h6>
+
+
+                        <hr></hr>
+
+                    <img
+                        src="https://scontent-ort2-1.xx.fbcdn.net/v/t31.0-8/14543705_1110954562323942_6539218037979821042_o.jpg?_nc_cat=102&_nc_oc=AQlYxRNLp-mexK2GvyCCCNiwSPdQCuz2nW81KAI-BBncFAtvyLd6C8KXIVfpiuKBza4tuW2Pmdv07j6OwBCnPVW0&_nc_ht=scontent-ort2-1.xx&oh=c9d19a94023de42f8c1999e3f540f61e&oe=5E4B871F"
+                        alt="avatar"
+                        style={{height: '350px', border: '3px solid black'}}
+                        />
+                        <h6 style={{ width: '85%', margin: 'auto', paddingTop: '1em'}}>Trolltunga, Norway. Just outside of Bergen, Norway, my Dutch friends and I decided to go camping in the backcountry. It was a spontaneous, yet exhilerating adventure. </h6>
+
+                        
 
                     </Cell>
 
@@ -49,7 +112,7 @@ class About extends Component {
                     <List>
                         <ListItem>
                             <ListItemContent >
-                            <h4 style={{ width: '90%', margin: 'auto', paddingTop: '1em'}}>Hello and welcome! My name is JP O'Grady and I am currently enrolled in a fullstack Javascript development course with Eleven Fifty Academy in Fishers, Indiana. I have experience with HTML, CSS, and Javascript. I am a passionate and driven individual that enjoys creating quality code.</h4>
+                            <h4 style={{ width: '90%', margin: 'auto', paddingTop: '1em', alignContent: 'flex-start'}}>Hello and welcome! My name is JP O'Grady and I am currently enrolled in a fullstack Javascript development course with Eleven Fifty Academy in Fishers, Indiana. I have experience with HTML, CSS, and Javascript. I am a passionate and driven individual that enjoys creating quality code.</h4>
                             </ListItemContent>
                         </ListItem>
                          
@@ -64,6 +127,19 @@ class About extends Component {
                             <h4 style={{ width: '90%', margin: 'auto', paddingTop: '1em'}}>I taught for a year in Prague, Czech Republic and another in Hanoi, Vietnam. It was a good experience and I learned a lot during that time.</h4>
                             </ListItemContent>
                         </ListItem>
+
+                        {/* <Cell col={6} style={{alignContent: 'center'}} >
+                        <h2>JP O'Grady</h2>
+                    <img 
+                        src={dirtbikeutah}
+                        alt="avatar"
+                        style={{height: '350px', border: '3px solid black'}}
+                    />
+                        <h6 style={{ width: '85%', margin: 'auto', paddingTop: '1em'}}>My hobbies include riding my dirt bike, running, swimming, climbing, golf, reading books and drinking coffee, traveling and connecting with friends and family.</h6>
+
+                        <hr></hr>
+                            </Cell> */}
+
                         
 
                     </List>
