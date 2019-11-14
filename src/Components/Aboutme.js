@@ -13,7 +13,7 @@ class About extends Component {
                     <img 
                         src={dirtbikeutah}
                         alt="avatar"
-                        style={{height: '350px'}}
+                        style={{height: '350px', border: '3px solid black'}}
                     />
                         <h6 style={{ width: '85%', margin: 'auto', paddingTop: '1em'}}>My hobbies include riding my dirt bike, running, swimming, climbing, golf, reading books and drinking coffee, traveling and connecting with friends and family.</h6>
                     </Cell>
