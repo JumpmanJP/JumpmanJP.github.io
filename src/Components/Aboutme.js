@@ -14,7 +14,7 @@ class About extends Component {
             <div className="contact-body-about">
                 <Grid className="contact-grid-about">
                     <Cell col={6}>
-                    <h2>JP O'Grady</h2>
+                    <h1>JP O'Grady</h1>
                     <img 
                         src={dirtbikeutah}
                         alt="avatar"
@@ -106,7 +106,7 @@ class About extends Component {
 
                     
                     <Cell col={6}>
-                        <h2>About Me</h2>
+                        <h1>About Me</h1>
 
                     <div className="contact-list">
                     <List>

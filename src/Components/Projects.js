@@ -60,12 +60,12 @@ if(this.state.activeTab === 0) {
 <div className="projects-grid">
         {/* Project 3  */}
         <Card shadow={6} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: 'blue', height: '176px', background: 'url(https://images.unsplash.com/photo-1501688190156-9e816757373a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80) center/ cover '}} >API Project #1</CardTitle>
+            <CardTitle style={{color: 'black', height: '176px', background: 'url(https://images.pexels.com/photos/1435895/pexels-photo-1435895.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center/ cover '}} >API Project #1</CardTitle>
             <CardText>
                 I created an API receipe search for meals based on breakfast, lunch and dinner. Meals include URL link to their respective websites.
             </CardText>
             <CardActions border>
-                <Button colored>GitHub</Button>
+                <Button colored >GitHub</Button>
                 <Button colored href="http://127.0.0.1:5500/API-Proj/index.html" >Deployed Site</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
