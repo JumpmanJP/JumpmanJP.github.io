@@ -22,8 +22,10 @@ text-align: center;
 
 .profile_pic {
   height: 366px;
-  padding-top: 5em;
+  padding-top: 0em;
   border: 3px solid black;
+  border-radius: 0px;
+
 }
 
 .banner-text {
@@ -31,7 +33,7 @@ text-align: center;
   opacity: .8;
   width: 75%;
   margin: auto;
-  border-radius: 10px;
+  border-radius: 0px;
 }
 
 .banner-text h1 {
@@ -152,4 +154,32 @@ margin: auto;
   background: #0099F7;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #F11712, #0099F7);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #F11712, #0099F7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+/* *** */
+/* About Me */
+/* *** */
+
+.contact-body-about {
+  margin: auto;
+  background: #0099F7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F11712, #0099F7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F11712, #0099F7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* position: fixed; */
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid-about {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 1440px;
+  background: grey;
+  color: black;
+  border: 3px solid black;
+  margin-bottom: 20px;
 }
