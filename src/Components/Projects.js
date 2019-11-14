@@ -89,7 +89,7 @@ return (
 
         <Grid >
             <Cell col={12}>
-                <div className="content" style={{ height: '950px' }}>{this.toggleCatagories()}</div>
+                <div className="content" style={{ height: '1500px' }}>{this.toggleCatagories()}</div>
             </Cell>
         </Grid>
 
