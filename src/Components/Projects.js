@@ -26,7 +26,7 @@ if(this.state.activeTab === 0) {
             </CardText>
             <CardActions border>
                 <Button colored >GitHub</Button>
-                <Button colored href="https://wandur.herokuapp.com/" >Deployed Site</Button>
+                <Button colored target="_blank" href="https://wandur.herokuapp.com/" >Deployed Site</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
                 <IconButton name="share"/>
@@ -45,7 +45,7 @@ if(this.state.activeTab === 0) {
             </CardText>
             <CardActions border>
                 <Button colored>GitHub</Button>
-                <Button colored href="https://jce-cupojoy.herokuapp.com/" >Deployed Site</Button>
+                <Button colored target="_blank" href="https://jce-cupojoy.herokuapp.com/" >Deployed Site</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
                 <IconButton name="share"/>
@@ -66,7 +66,7 @@ if(this.state.activeTab === 0) {
             </CardText>
             <CardActions border>
                 <Button colored >GitHub</Button>
-                <Button colored href="http://127.0.0.1:5500/API-Proj/index.html" >Deployed Site</Button>
+                <Button colored target="_blank" href="http://127.0.0.1:5500/API-Proj/index.html" >Deployed Site</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
                 <IconButton name="share"/>
