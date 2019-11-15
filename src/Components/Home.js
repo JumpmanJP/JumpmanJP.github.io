@@ -25,7 +25,7 @@ class Landing extends Component {
                 />
                 </Cell>
                 <div className="banner-text" >
-                    <h1>Web Developer</h1>
+                    <h1>Software Developer</h1>
                 <hr/>
 
                 <p>HTML/CSS  |  Bootstrap  |  JavaScript  |  ReactJS  |  AngularJS  |  TypeScript  |  NodeJS  |  Express  |  Postgress</p>

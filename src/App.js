@@ -13,7 +13,7 @@ class App extends Component {
       <Layout>
         <Header className="header-color" title="JP O'Grady" scroll>
           <Navigation>
-            <Link to="/LandingPage">Landing Page</Link>
+            <Link to="/Home">Home</Link>
             <Link to="/projects">Projects</Link>
             <Link to="/resume">Resume</Link>
             <Link to="/aboutme">About Me</Link>
@@ -22,7 +22,7 @@ class App extends Component {
         </Header>
         <Drawer title="JP O'Grady">
           <Navigation>
-            <Link to="/LandingPage">Landing Page</Link>
+            <Link to="/Home">Home</Link>
             <Link to="/projects">Projects</Link>
             <Link to="/resume">Resume</Link>
             <Link to="/aboutme">About Me</Link>

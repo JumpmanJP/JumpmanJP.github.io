@@ -9,9 +9,12 @@ import profile_pic from '../Assets/profile_pic.png';
 class Resume extends Component {
     constructor() {
         super();
-        this.state= {
+        // this.download = {
+        //     if(onClick == true) {
 
-        }
+        //     }
+
+        // }
     }
 
 
@@ -91,7 +94,7 @@ class Resume extends Component {
                         startYear={2009}
                         endYear={2015}
                         jobName="Owner/Operator"
-                        jobDescription="My softmore year in high school I created a lawn care business called JP's Grass Squad. I developed clients at a steady rate through my time as an undergrad at Purdue University and eventually expanded to hire employees, invest in larger more industrial equipment and create a web site for marketing purposes. I developed a strong skillset with this experience including time/project management, customer service, strong written and oral communication."
+                        jobDescription="My sophmore year in high school I created a lawn care business called JP's Grass Squad. I developed clients at a steady rate through my time as an undergrad at Purdue University and eventually expanded to hire employees, invest in larger more industrial equipment and create a web site for marketing purposes. I developed a strong skillset with this experience including time/project management, customer service, strong written and oral communication."
                         />
 
                         <hr style={{borderTop: '3px solid #833fb2'}} />
