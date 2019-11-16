@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
 
+import AboutmeV2 from './AboutmeV2';
+
 import dirtbikeutah from '../Assets/dirtbikeutah.png';
 import dirtbike from '../Assets/dirtbike.png';
 import hiking from '../Assets/hiking.png';
@@ -11,6 +13,20 @@ import mountains from '../Assets/mountains.png';
 class About extends Component {
     render () {
         return (
+            // <AboutmeV2 />
+            // AboutmeV2 is my attempt at creating a carousel of images about myself for my viewers to gain a greater idea of who I am
+
+
+
+
+
+
+
+
+
+
+
+
             <div className="contact-body-about">
                 <Grid className="contact-grid-about">
                     <Cell col={6}>

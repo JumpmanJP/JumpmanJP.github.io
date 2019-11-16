@@ -3,8 +3,10 @@ import { Grid, Cell, } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Button from 'react-bootstrap/Button';
+import onClick from './OnClick';
 
 import profile_pic from '../Assets/profile_pic.png';
+import OnClick from './OnClick';
 
 class Resume extends Component {
     constructor() {
@@ -46,7 +48,8 @@ class Resume extends Component {
 
                     {/* // Attempting to connect my resume pdf format to the download button and get it to open in another page using target set to _blank */}
                     <div className="resume">
-                    <Button onClick={this.download} variant="dark">Download Resume Here</Button>
+                        <OnClick />
+                    {/* <Button onClick={this.download} variant="dark">Download Resume Here</Button> */}
                     </div>
 
                     </Cell>

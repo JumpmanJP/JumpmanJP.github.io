@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
+import { Grid, Cell, } from 'react-mdl';
+import { Form, FormGroup, Input, Label, Button } from 'reactstrap';
 
 import profile_pic from '../Assets/profile_pic.png';
 
@@ -22,7 +23,46 @@ class Contact extends Component {
                     <hr/>
 
                     <div className="contact-list">
-                    <List>
+                        {/* Attempting to import a simple contact form for my viewers. */}
+                        <Form>
+                            <FormGroup>
+                                <Label for="name">Name:</Label>
+                                <Input
+                                    type="text"
+                                    name="name"
+                                    onChange={this.handleChange} />
+                            </FormGroup>
+                        </Form>
+
+                    
+                    
+                    
+
+                    </div>
+
+                    </Cell>
+                </Grid>
+            </div>
+        )
+    }
+}
+
+export default Contact;
+
+
+
+
+
+
+
+
+
+
+
+
+// Prior Content
+
+                    {/* <List>
                         <ListItem>
                             <ListItemContent style={{fontSize: '25px'}}>
                                 <i className="fa fa-phone-square" aria-hidden="true"/>
@@ -37,14 +77,4 @@ class Contact extends Component {
                             </ListItemContent>
                         </ListItem>
 
-                    </List>
-                    </div>
-
-                    </Cell>
-                </Grid>
-            </div>
-        )
-    }
-}
-
-export default Contact;
+                    </List> */}

@@ -78,6 +78,8 @@ if(this.state.activeTab === 0) {
 }
 }
 
+// In the code above, I was unable to connect my live API project, or get it to render in the DOM. Viewers can see it on GitHub but not deployed. 
+
 render() {
 return (
         <div className="catagory-tabs">
