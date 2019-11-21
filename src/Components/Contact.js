@@ -1,10 +1,30 @@
 import React, { Component } from 'react';
 import { Grid, Cell, } from 'react-mdl';
 import { Form, FormGroup, Input, Label, Button } from 'reactstrap';
+import { List, ListItem, ListItemContent } from 'react-mdl';
 
 import profile_pic from '../Assets/profile_pic.png';
 
 class Contact extends Component {
+    // COMMENTED OUT CODE: ATTEMPT AT CREATING A WORKING FORM FOR VIEWERS TO EMAIL ME FROM.
+// constructor() {
+//     super()
+
+//     this.state = {
+//         name: '',
+//         email: '',
+//         message: '',
+
+//     }
+
+// this.handleChange = this.handleChange.bind(this)
+
+// }
+
+// handleChange = e => {
+//     this.setState({ [e.target.name]: e.target.value }) //this is an object
+// }
+
     render () {
         return (
             <div className="contact-body">
@@ -23,19 +43,52 @@ class Contact extends Component {
                     <hr/>
 
                     <div className="contact-list">
+
                         {/* Attempting to import a simple contact form for my viewers. */}
-                        <Form>
+                        {/* <Form style= {{ width: '600px' }} >
                             <FormGroup>
-                                <Label for="name">Name:</Label>
+                                <Label for="name">Full Name:</Label>
                                 <Input
                                     type="text"
                                     name="name"
                                     onChange={this.handleChange} />
                             </FormGroup>
-                        </Form>
+
+                            <FormGroup>
+                                <Label for="email">Email Address:</Label>
+                                <Input
+                                    type="email"
+                                    name="email"
+                                    onChange={this.handleChange} />
+                            </FormGroup>
+
+                            <FormGroup>
+                                <Label for="message">Message:</Label>
+                                <Input
+                                    type="textarea"
+                                    name="message"
+                                    onChange={this.handleChange} />
+                            </FormGroup>
+                            <Button>Submit</Button>
+                        </Form> */}
 
                     
-                    
+                    <List>
+                        <ListItem>
+                            <ListItemContent style={{fontSize: '25px'}}>
+                                <i className="fa fa-phone-square" aria-hidden="true"/>
+                                +1(765)701.0241
+                            </ListItemContent>
+                        </ListItem>
+                         
+                        <ListItem>
+                            <ListItemContent style={{fontSize: '25px'}}>
+                                <i className="fa fa-envelope" aria-hidden="true"/>
+                                jp.ogrady06@gmail.com
+                            </ListItemContent>
+                        </ListItem>
+
+                    </List> 
                     
 
                     </div>
@@ -60,21 +113,5 @@ export default Contact;
 
 
 
-// Prior Content
 
-                    {/* <List>
-                        <ListItem>
-                            <ListItemContent style={{fontSize: '25px'}}>
-                                <i className="fa fa-phone-square" aria-hidden="true"/>
-                                +1(765)701.0241
-                            </ListItemContent>
-                        </ListItem>
-                         
-                        <ListItem>
-                            <ListItemContent style={{fontSize: '25px'}}>
-                                <i className="fa fa-envelope" aria-hidden="true"/>
-                                jp.ogrady06@gmail.com
-                            </ListItemContent>
-                        </ListItem>
-
-                    </List> */}
+           

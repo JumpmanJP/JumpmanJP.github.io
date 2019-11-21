@@ -3,22 +3,15 @@ import { Grid, Cell, } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Button from 'react-bootstrap/Button';
-import onClick from './OnClick';
 
 import profile_pic from '../Assets/profile_pic.png';
-import OnClick from './OnClick';
+import ReactResume from '../PDF/ReactResume.pdf'
+
+
+
+
 
 class Resume extends Component {
-    constructor() {
-        super();
-        // this.download = {
-        //     if(onClick == true) {
-
-        //     }
-
-        // }
-    }
-
 
 
     render() {
@@ -48,8 +41,7 @@ class Resume extends Component {
 
                     {/* // Attempting to connect my resume pdf format to the download button and get it to open in another page using target set to _blank */}
                     <div className="resume">
-                        <OnClick />
-                    {/* <Button onClick={this.download} variant="dark">Download Resume Here</Button> */}
+                    <Button variant="dark" a href={ReactResume} target="_blank"> Download Resume Here</Button>
                     </div>
 
                     </Cell>

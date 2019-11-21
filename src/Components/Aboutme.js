@@ -128,19 +128,20 @@ class About extends Component {
                     <List>
                         <ListItem>
                             <ListItemContent >
-                            <h4 style={{ width: '90%', margin: 'auto', paddingTop: '1em', alignContent: 'flex-start'}}>Hello and welcome! My name is JP O'Grady and I am currently enrolled in a fullstack Javascript development course with Eleven Fifty Academy in Fishers, Indiana. I have experience with HTML, CSS, and Javascript. I am a passionate and driven individual that enjoys creating quality code.</h4>
+                            <h4 style={{ width: '90%', margin: 'auto', paddingTop: '1em', alignContent: 'flex-start'}}>Hello and welcome! My name is JP O'Grady and I recently graduated from a fullstack Javascript development course with Eleven Fifty Academy in Fishers, Indiana. I have experience building with HTML, CSS, Javascript, NodeJS and express, ReactJS,
+                            AngularJS and Typescript. My database experience includes Postgress. I am a passionate and driven individual that enjoys the process of building applications in code.</h4>
                             </ListItemContent>
                         </ListItem>
                          
                         <ListItem>
                             <ListItemContent >
-                            <h4 style={{ width: '90%', margin: 'auto', paddingTop: '1em'}}>I grew up in West Lafayette, Indiana where I ran a mowing and landscaping business throughout high school and college. During this time I also became an Eagle Scout and graduated from Purdue University. Upon graduation I decided to teach (ESL) English as a Second Language abroad. </h4>
+                            <h4 style={{ width: '90%', margin: 'auto', paddingTop: '1em'}}>I grew up in West Lafayette, Indiana where I ran a lawn care business throughout high school and college. During this time I also became an Eagle Scout and graduated from Purdue University. Upon graduation I decided to teach (ESL) English as a Second Language abroad. I taught for a year in Prague, Czech Republic and another in Hanoi, Vietnam. It was a good experience and I learned a lot during that time. </h4>
                             </ListItemContent>
                         </ListItem>
 
                         <ListItem>
                             <ListItemContent >
-                            <h4 style={{ width: '90%', margin: 'auto', paddingTop: '1em'}}>I taught for a year in Prague, Czech Republic and another in Hanoi, Vietnam. It was a good experience and I learned a lot during that time.</h4>
+                            <h4 style={{ width: '90%', margin: 'auto', paddingTop: '1em'}}>Upon returning home, I sought a new challenge. My friend Rahul introduced me to software development. The opportunity to create and build really caught my attention and I took measured steps to begin learning. While I have mostly web development experience at this time, I am in the process of learning python and SQL. These tools intrest me because I am intrested in back end development and working with data. </h4>
                             </ListItemContent>
                         </ListItem>
 
