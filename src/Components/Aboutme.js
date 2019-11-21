@@ -128,8 +128,7 @@ class About extends Component {
                     <List>
                         <ListItem>
                             <ListItemContent >
-                            <h4 style={{ width: '90%', margin: 'auto', paddingTop: '1em', alignContent: 'flex-start'}}>Hello and welcome! My name is JP O'Grady and I recently graduated from a fullstack Javascript development course with Eleven Fifty Academy in Fishers, Indiana. I have experience building with HTML, CSS, Javascript, NodeJS and express, ReactJS,
-                            AngularJS and Typescript. My database experience includes Postgress. I am a passionate and driven individual that enjoys the process of building applications in code.</h4>
+                            <h4 style={{ width: '90%', margin: 'auto', paddingTop: '1em', alignContent: 'flex-start'}}>Hello and welcome! My name is JP O'Grady and I recently graduated from a full stack Javascript development course with Eleven Fifty Academy in Fishers, Indiana. I have experience building with HTML, CSS, Javascript, NodeJS and express, ReactJS, AngularJS and Typescript. My database experience includes Postgress. I am a passionate and driven individual that enjoys the process of building applications in code.</h4>
                             </ListItemContent>
                         </ListItem>
                          
@@ -141,7 +140,7 @@ class About extends Component {
 
                         <ListItem>
                             <ListItemContent >
-                            <h4 style={{ width: '90%', margin: 'auto', paddingTop: '1em'}}>Upon returning home, I sought a new challenge. My friend Rahul introduced me to software development. The opportunity to create and build really caught my attention and I took measured steps to begin learning. While I have mostly web development experience at this time, I am in the process of learning python and SQL. These tools intrest me because I am intrested in back end development and working with data. </h4>
+                            <h4 style={{ width: '90%', margin: 'auto', paddingTop: '1em'}}>Upon returning home, I sought a new challenge. A friend from Purdue University introduced me to software development. The opportunity to create and build really caught my attention and I took measured steps to begin learning. While I have mostly web development experience at this time, I am in the process of learning python and SQL. These tools appeal to me because I am interested in back end development and working with data. </h4>
                             </ListItemContent>
                         </ListItem>
 
