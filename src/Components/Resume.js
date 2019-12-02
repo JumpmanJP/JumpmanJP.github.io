@@ -23,7 +23,7 @@ class Resume extends Component {
                             <img
                                 src={profile_pic}
                                 alt="avatar"
-                                style={{height: '366px', border: '3px solid black'}}
+                                style={{height: '', width: '30vw', border: '3px solid black', margin: 0  }}
                                 />
                         </div>
 
@@ -81,8 +81,8 @@ class Resume extends Component {
                         <Experience
                         startYear={2012}
                         endYear={2017}
-                        jobName="Sales Representative"
-                        jobDescription="Working for Hoosier Refreshments during and just after I graduated from Purdue gave me valuable business experience. I was charged with the responsability to communicate with grocery store managers and order the appropriate inventory to be allocated to the next days merchandisers. I also worked with the merchandisers and store managers to create sales displays throughout the week. "
+                        jobName="Merchandise Manager"
+                        jobDescription="Working for Hoosier Refreshments during and just after I graduated from Purdue gave me valuable business experience. I was charged with the responsability to manage grocery store inventory levels, the merchandise employees and communicate with managers to order the appropriate prodect for the next day. I also worked with the merchandisers and store managers to create sales displays throughout the week. "
                         />
 
                         <Experience

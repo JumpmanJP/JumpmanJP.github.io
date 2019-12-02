@@ -9,26 +9,24 @@ import profile_pic from '../Assets/profile_pic.png';
 class Landing extends Component {
     render() {
     return (
-        <div style={{width: '100%', margin: 'auto'}}>
+        <div style={{width: '100%', minheight: '5%', margin: 'auto'}}>
             <Grid className="landing-grid">
                 <Cell col={12}>
                     <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
+            
+                  
                 <img 
                     src={profile_pic}
                     alt="profile_pic"
                     className="profile_pic"
-                    // style={{border: '5px solid black'}}
                 />
+
                 </Cell>
                 <div className="banner-text" >
                     <h1>Software Developer</h1>
                 <hr/>
 
-                <p>HTML/CSS  |  Bootstrap  |  JavaScript  |  ReactJS  |  AngularJS  |  TypeScript  |  NodeJS  |  Express  |  Postgress</p>
+                <p>HTML/CSS   |  JavaScript  |  ReactJS  |  AngularJS  |  TypeScript  |  NodeJS  |  Express  |  Postgress</p>
 
             <div className="social-links">
 

@@ -67,7 +67,7 @@ if(this.state.activeTab === 0) {
             </CardText>
             <CardActions border>
                 <Button colored target="_blank" href="https://github.com/JumpmanJP/API-Proj">GitHub</Button>
-                <Button colored target="_blank" href="file:///Users/jpogrady/Desktop/JSAUG2019/javaScriptLibrary/API-Proj/index.html" >Deployed Site</Button>
+                <Button colored target="_blank" href="https://jsaug19api.firebaseapp.com/" >Deployed Site</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
                 <IconButton name="share"/>
