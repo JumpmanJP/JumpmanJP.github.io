@@ -15,14 +15,17 @@
 top: 0;
 left: 0;
 width: 100%;
-min-height: 100%;
+/* min-height: 100%; */
+min-height: 935px;
 text-align: center;
 }
 
 .profile_pic {
   /* height: 366px; */
-  height: 55vh;
-  width: 36vw;
+  /* height: 54vh;
+  width: 30vw; */
+  height: 87%;
+  width: 26%;
   padding-top: 0em;
   padding-bottom: 0em;
   border: 3px solid black;

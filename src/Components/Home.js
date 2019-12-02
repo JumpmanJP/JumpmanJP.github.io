@@ -9,7 +9,7 @@ import profile_pic from '../Assets/profile_pic.png';
 class Landing extends Component {
     render() {
     return (
-        <div style={{width: '100%', minheight: '5%', margin: 'auto'}}>
+        <div style={{width: '100%', margin: 'auto'}}>
             <Grid className="landing-grid">
                 <Cell col={12}>
                     <br></br>
