@@ -3,7 +3,8 @@ import { Grid, Cell, } from 'react-mdl';
 import { Form, FormGroup, Input, Label, Button } from 'reactstrap';
 import { List, ListItem, ListItemContent } from 'react-mdl';
 
-import profile_pic from '../Assets/profile_pic.png';
+// import profile_pic from '../Assets/profile_pic.png';
+import JPVietnam from '../Assets/JPVietnam.png';
 
 class Contact extends Component {
     // COMMENTED OUT CODE: ATTEMPT AT CREATING A WORKING FORM FOR VIEWERS TO EMAIL ME FROM. TURNS OUT I WOULD NEED A BACKEND TO COMPLETE.
@@ -32,11 +33,11 @@ class Contact extends Component {
                     <Cell col={6}>
                     <h1>JP O'Grady</h1>
                     <img 
-                        src={profile_pic}
+                        src={JPVietnam}
                         alt="avatar"
-                        style={{height: '55%', width: '75%', border: '3px solid black'}}
+                        style={{height: '70%', width: '70%', border: '3px solid black'}}
                     />
-                        <h4 style={{ width: '75%', margin: 'auto', paddingTop: '1em', textAlign: 'left'}}>I am excited and motivated to work for an organization that enables me to contribute value while continuing to grow as a professional and take on opportunities that empower me to continue learning in a field that is hands-on and fast-paced.</h4>
+                        <h4 style={{ width: '70%', margin: 'auto', paddingTop: '1em', textAlign: 'left'}}>I am excited and motivated to work for an organization that enables me to contribute value while continuing to grow as a professional and take on opportunities that empower me to continue learning in a field that is hands-on and fast-paced.</h4>
                     </Cell>
 
                     {/* I can't find a way to move my CONTACT ME section further down the page when looking on a mobile platform. */}

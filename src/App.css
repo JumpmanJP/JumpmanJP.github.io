@@ -25,7 +25,7 @@ text-align: center;
   /* height: 54vh;
   width: 30vw; */
   height: 87%;
-  width: 26%;
+  width: 29%;
   padding-top: 0em;
   padding-bottom: 0em;
   border: 3px solid black;
@@ -98,11 +98,12 @@ margin: auto;
   text-align: center;
   justify-content: center;
   width: 85%;
-  /* height: 650px; */
+  /* min-height: 90%; */
+  height: 100%;
   background: grey;
   color: black;
   border: 3px solid black;
-  /* margin-bottom: 20px; */
+  margin-bottom: 20px;
 }
 
 .contact-grid h2 {
@@ -187,6 +188,7 @@ margin: auto;
   text-align: center;
   justify-content: center;
   width: 85%;
+  height: 90%;
   /* height: 3940px; */
   background: grey;
   color: black;
